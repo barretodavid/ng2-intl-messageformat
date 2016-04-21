@@ -26,8 +26,8 @@
   <script src="vendor/systemjs/dist/system-polyfills.js"></script>
   <script src="vendor/angular2/bundles/angular2-polyfills.js"></script>
   <script src="vendor/systemjs/dist/system.src.js"></script>
+  
   <script src="vendor/rxjs/bundles/Rx.js"></script>
-
   <script src="vendor/angular2/bundles/angular2.dev.js"></script>
   <script src="vendor/angular2/bundles/http.dev.js"></script>
   <script src="vendor/angular2/bundles/router.dev.js"></script>
@@ -39,9 +39,13 @@
           format: 'register',
           defaultExtension: 'js'
         }
+      },
+      map: {
+        'intl-messageformat': 'vendor/intl-messageformat/dist/intl-messageformat-with-locales.js'
       }
     });
     System.import('app.js').then(null, console.error.bind(console));
   </script>
+  
 </body>
 </html>

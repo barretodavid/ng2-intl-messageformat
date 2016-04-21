@@ -2,4 +2,10 @@
   angular2-formatjs Works!
 </p>
 
-<router-outlet></router-outlet>
+<select [ngFormControl]="languageControl">
+  <option *ngFor="#language of languages; #index=index" [value]="index">
+    {{ language.name }}
+  </option>
+</select>
+
+{{ TEXT.NUM_PHOTOS | translate: {numPhotos: 1000} }}
