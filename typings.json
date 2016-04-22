@@ -8,7 +8,6 @@
   },
   "ambientDependencies": {
     "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#6697d6f7dadbf5773cb40ecda35a76027e0783b2",
-    "moment": "registry:dt/moment#2.8.0+20160316155526",
     "moment-node": "registry:dt/moment-node#2.11.1+20160417135035",
     "intl-messageformat": "file:typings-custom/intl-messageformat/intl-messageformat.d.ts"
   }
